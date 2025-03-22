@@ -27,7 +27,7 @@ A modern, responsive marketing website for the [faux-cv](https://www.npmjs.com/p
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/faux-cv-website.git
+git clone https://github.com/mrlynn/faux-cv-website.git
 
 # Navigate to the project directory
 cd faux-cv-website
@@ -107,9 +107,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- Documentation: [Link to docs]
-- Issues: [GitHub Issues](https://github.com/yourusername/faux-cv-website/issues)
-- Twitter: [@yourusername](https://twitter.com/yourusername)
+- Documentation: [faux-cv-docs](https://mrlynn.github.io/faux-cv-docs)
+- Issues: [GitHub Issues](https://github.com/mrlynn/faux-cv-website/issues)
+- Twitter: [@mrlynn](https://twitter.com/mrlynn)
 
 ## Acknowledgments
 
