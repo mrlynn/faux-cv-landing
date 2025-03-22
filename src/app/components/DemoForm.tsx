@@ -27,7 +27,15 @@ export default function DemoForm() {
 
   const [result, setResult] = useState('');
 
-  const handleChange = (event: SelectChangeEvent | React.ChangeEvent<HTMLInputElement>) => {
+  const handleSelectChange = (event: SelectChangeEvent) => {
+    const { name, value } = event.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleTextFieldChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setFormData(prev => ({
       ...prev,
@@ -304,7 +312,7 @@ ${data.basics.profiles.map((profile: any) => `- [${profile.network}](${profile.u
                 name="industry"
                 value={formData.industry}
                 label="Industry"
-                onChange={handleChange}
+                onChange={handleSelectChange}
               >
                 <MenuItem value="tech">Technology</MenuItem>
                 <MenuItem value="finance">Finance</MenuItem>
@@ -322,7 +330,7 @@ ${data.basics.profiles.map((profile: any) => `- [${profile.network}](${profile.u
               name="experience"
               type="number"
               value={formData.experience}
-              onChange={handleChange}
+              onChange={handleTextFieldChange}
               InputProps={{ inputProps: { min: 0, max: 40 } }}
             />
           </Grid>
@@ -335,7 +343,7 @@ ${data.basics.profiles.map((profile: any) => `- [${profile.network}](${profile.u
                 name="format"
                 value={formData.format}
                 label="Output Format"
-                onChange={handleChange}
+                onChange={handleSelectChange}
               >
                 <MenuItem value="json">JSON</MenuItem>
                 <MenuItem value="markdown">Markdown</MenuItem>
