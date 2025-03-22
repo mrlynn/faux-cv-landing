@@ -11,7 +11,7 @@ const nextConfig = {
         hostname: 'github.com',
       },
     ],
-  },
+  }
 }
 
 module.exports = nextConfig 

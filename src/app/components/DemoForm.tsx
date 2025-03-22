@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import { useState } from 'react';
 import {
   Box,
@@ -12,13 +13,15 @@ import {
   Button,
   Typography,
   Grid,
-  SelectChangeEvent
+  SelectChangeEvent,
+  useTheme
 } from '@mui/material';
 import { marked } from 'marked';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 
 export default function DemoForm() {
+  const theme = useTheme();
   const [formData, setFormData] = useState({
     industry: 'tech',
     experience: '5',
@@ -301,18 +304,47 @@ ${data.basics.profiles.map((profile: any) => `- [${profile.network}](${profile.u
   };
 
   return (
-    <Paper elevation={3} sx={{ p: 4 }}>
+    <Paper 
+      elevation={0}
+      sx={{ 
+        p: 4,
+        bgcolor: theme.palette.background.default,
+        border: `1px solid ${theme.palette.divider}`,
+        borderRadius: 2,
+      }}
+    >
       <form onSubmit={handleSubmit}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={4}>
             <FormControl fullWidth>
-              <InputLabel id="industry-label">Industry</InputLabel>
+              <InputLabel 
+                id="industry-label"
+                sx={{ 
+                  color: theme.palette.text.secondary,
+                  '&.Mui-focused': {
+                    color: theme.palette.primary.main,
+                  },
+                }}
+              >
+                Industry
+              </InputLabel>
               <Select
                 labelId="industry-label"
                 name="industry"
                 value={formData.industry}
                 label="Industry"
                 onChange={handleSelectChange}
+                sx={{
+                  '& .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.divider,
+                  },
+                  '&:hover .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.primary.main,
+                  },
+                  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.primary.main,
+                  },
+                }}
               >
                 <MenuItem value="tech">Technology</MenuItem>
                 <MenuItem value="finance">Finance</MenuItem>
@@ -331,19 +363,53 @@ ${data.basics.profiles.map((profile: any) => `- [${profile.network}](${profile.u
               type="number"
               value={formData.experience}
               onChange={handleTextFieldChange}
-              InputProps={{ inputProps: { min: 0, max: 40 } }}
+              InputProps={{ 
+                inputProps: { min: 0, max: 40 },
+                sx: {
+                  '& .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.divider,
+                  },
+                  '&:hover .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.primary.main,
+                  },
+                  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.primary.main,
+                  },
+                }
+              }}
             />
           </Grid>
 
           <Grid item xs={12} md={4}>
             <FormControl fullWidth>
-              <InputLabel id="format-label">Output Format</InputLabel>
+              <InputLabel 
+                id="format-label"
+                sx={{ 
+                  color: theme.palette.text.secondary,
+                  '&.Mui-focused': {
+                    color: theme.palette.primary.main,
+                  },
+                }}
+              >
+                Output Format
+              </InputLabel>
               <Select
                 labelId="format-label"
                 name="format"
                 value={formData.format}
                 label="Output Format"
                 onChange={handleSelectChange}
+                sx={{
+                  '& .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.divider,
+                  },
+                  '&:hover .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.primary.main,
+                  },
+                  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+                    borderColor: theme.palette.primary.main,
+                  },
+                }}
               >
                 <MenuItem value="json">JSON</MenuItem>
                 <MenuItem value="markdown">Markdown</MenuItem>
@@ -359,6 +425,16 @@ ${data.basics.profiles.map((profile: any) => `- [${profile.network}](${profile.u
               color="primary" 
               fullWidth
               size="large"
+              sx={{
+                py: 1.5,
+                fontSize: '1rem',
+                fontWeight: 600,
+                textTransform: 'none',
+                boxShadow: 'none',
+                '&:hover': {
+                  boxShadow: 'none',
+                },
+              }}
             >
               Generate Resume
             </Button>
@@ -368,18 +444,30 @@ ${data.basics.profiles.map((profile: any) => `- [${profile.network}](${profile.u
 
       {result && (
         <Box sx={{ mt: 4 }}>
-          <Typography variant="h6" gutterBottom>Generated Resume:</Typography>
-          <Paper 
+          <Typography 
+            variant="h6" 
+            gutterBottom
             sx={{ 
-              p: 2, 
-              bgcolor: '#f5f5f5',
+              fontWeight: 600,
+              color: theme.palette.text.primary,
+            }}
+          >
+            Generated Resume:
+          </Typography>
+          <Paper 
+            elevation={0}
+            sx={{ 
+              p: 3, 
+              bgcolor: theme.palette.background.paper,
+              border: `1px solid ${theme.palette.divider}`,
+              borderRadius: 2,
               maxHeight: '400px',
               overflow: 'auto',
               fontFamily: formData.format === 'markdown' ? 'monospace' : 'inherit',
-              whiteSpace: formData.format === 'markdown' ? 'pre-wrap' : 'normal'
+              whiteSpace: formData.format === 'markdown' ? 'pre-wrap' : 'normal',
             }}
           >
-            <pre style={{ margin: 0 }}>
+            <pre style={{ margin: 0, color: theme.palette.text.primary }}>
               {result}
             </pre>
           </Paper>
