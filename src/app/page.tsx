@@ -118,6 +118,23 @@ export default function Home() {
                 >
                   npm install faux-cv
                 </Button>
+                <Button 
+                  variant="outlined" 
+                  size="large" 
+                  sx={{ 
+                    borderColor: theme.palette.primary.contrastText,
+                    color: theme.palette.primary.contrastText,
+                    '&:hover': {
+                      borderColor: theme.palette.primary.contrastText,
+                      bgcolor: 'rgba(255,255,255,0.1)',
+                    },
+                  }}
+                  href="https://mrlynn.github.io/faux-cv-docs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read Docs
+                </Button>
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
