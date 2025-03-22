@@ -1,0 +1,78 @@
+{
+  "name": "Enrique Schneider",
+  "contactInfo": {
+    "email": "enrique.schneider40@gmail.com",
+    "phone": "036-079-7875",
+    "location": "South Vivienneport, NH",
+    "linkedin": "linkedin.com/in/enrique-schneider-335747",
+    "website": "enriqueschneider.com"
+  },
+  "summary": "Experienced Site Reliability Engineer with 5 years of proven expertise in AWS, Flask, Vue.js. Demonstrated success in delivering high-quality solutions and collaborating effectively with cross-functional teams.",
+  "experience": [
+    {
+      "position": "DevOps Engineer",
+      "company": "Algorithmics",
+      "startDate": "March 2022",
+      "endDate": "Present",
+      "bulletPoints": [
+        "Implemented boiling Flask solutions, resulting in 10% improvement in efficiency",
+        "Led cross-functional teams to design JavaScript solutions",
+        "Collaborated with executives to deliver Node.js capabilities",
+        "Designed phony Node.js solutions, resulting in 36% improvement in productivity",
+        "Spearheaded cross-functional teams to implement PostgreSQL solutions"
+      ]
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "Cloudify",
+      "startDate": "December 2020",
+      "endDate": "December 2021",
+      "bulletPoints": [
+        "Improved remote MongoDB solutionundefined, resulting in 33% improvement in performance",
+        "Improved cross-functional teamundefined to develop TypeScript approaches",
+        "Collaborated with stakeholders to enhance Git capabilities",
+        "Established bold Git solutionundefined, resulting in 36% improvement in productivity",
+        "Created cross-functional teamundefined to develop Git systems"
+      ]
+    },
+    {
+      "position": "UI Designer",
+      "company": "CodeBridge",
+      "startDate": "November 2019",
+      "endDate": "November 2020",
+      "bulletPoints": [
+        "Improved red Node.js solutions, resulting in 37% improvement in productivity",
+        "Built cross-functional teamundefined to develop AWS systems",
+        "Collaborated with clients to optimize JavaScript capabilities",
+        "Designed voluminous MongoDB solutions, resulting in 34% improvement in productivity",
+        "Launched cross-functional teams to deploy Python frameworks"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's",
+      "field": "Data Science",
+      "institution": "Colorado University",
+      "graduationYear": 2019,
+      "details": [
+        "GPA: 3.4",
+        "Focus area: Vue.js, GraphQL",
+        "Member of Research Group"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Technical Skills",
+      "skills": "Python, AWS, Flask, TypeScript, JavaScript, REST APIs, CI/CD, Node.js, Redis"
+    },
+    {
+      "category": "Soft Skills",
+      "skills": "Presentation Skills, Communication, Decision Making"
+    }
+  ],
+  "certifications": [
+    "Certified Kubernetes Administrator"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Kenny Anderson",
+  "contactInfo": {
+    "email": "kenny_anderson51@hotmail.com",
+    "phone": "530-292-2148",
+    "location": "Jakubowskiport, MT",
+    "linkedin": "linkedin.com/in/kenny-anderson-460286",
+    "website": "kennyanderson.com"
+  },
+  "summary": "Experienced Machine Learning Engineer with 5 years of proven expertise in Flask, React, Django. Demonstrated success in delivering high-quality solutions and collaborating effectively with cross-functional teams.",
+  "experience": [
+    {
+      "position": "Site Reliability Engineer",
+      "company": "CodeBridge",
+      "startDate": "March 2024",
+      "endDate": "Present",
+      "bulletPoints": [
+        "Improved worried REST APIs solutionundefined, resulting in 33% improvement in performance",
+        "Improved cross-functional teamundefined to develop GraphQL systems",
+        "Worked closely with stakeholders to transform Vue.js capabilities"
+      ]
+    },
+    {
+      "position": "Machine Learning Engineer",
+      "company": "ByteSystems",
+      "startDate": "January 2020",
+      "endDate": "January 2024",
+      "bulletPoints": [
+        "Designed hearty REST APIs solutions, resulting in 20% improvement in efficiency",
+        "Optimized cross-functional teams to design Flask solutions",
+        "Collaborated with clients to transform Node.js capabilities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's",
+      "field": "Information Technology",
+      "institution": "North Kyle College",
+      "graduationYear": 2019,
+      "details": [
+        "GPA: 3.4"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Technical Skills",
+      "skills": "PostgreSQL, React, Redis, Docker, Express, GraphQL, Flask, PyTorch, TensorFlow"
+    },
+    {
+      "category": "Soft Skills",
+      "skills": "Conflict Resolution, Presentation Skills, Collaboration"
+    }
+  ],
+  "certifications": []
+}

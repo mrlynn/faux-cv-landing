@@ -1,0 +1,60 @@
+{
+  "name": "Gregory Ullrich",
+  "contactInfo": {
+    "email": "gregory.ullrich81@yahoo.com",
+    "phone": "616-503-3570",
+    "location": "Livonia, WA",
+    "linkedin": "linkedin.com/in/gregory-ullrich-421310",
+    "website": "gregoryullrich.com"
+  },
+  "summary": "Experienced Full Stack Developer with 5 years of proven expertise in React, Express, MongoDB. Demonstrated success in delivering high-quality solutions and collaborating effectively with cross-functional teams.",
+  "experience": [
+    {
+      "position": "Data Scientist",
+      "company": "CodeBridge",
+      "startDate": "March 2023",
+      "endDate": "Present",
+      "bulletPoints": [
+        "Launched harsh Redis solutions, resulting in 37% improvement in user satisfaction",
+        "Implemented cross-functional teams to develop Docker frameworks",
+        "Worked closely with executives to transform Redis capabilities",
+        "Spearheaded worthwhile TypeScript solutionundefined, resulting in 17% improvement in performance",
+        "Launched cross-functional teamundefined to deploy Flask systems"
+      ]
+    },
+    {
+      "position": "Backend Developer",
+      "company": "Algorithmics",
+      "startDate": "January 2020",
+      "endDate": "January 2023",
+      "bulletPoints": [
+        "Optimized third PostgreSQL solutionundefined, resulting in 22% improvement in efficiency",
+        "Improved cross-functional teamundefined to develop Git solutions",
+        "Collaborated with stakeholders to transform Django capabilities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Associate's",
+      "field": "Data Science",
+      "institution": "Ervinworth College",
+      "graduationYear": 2019,
+      "details": [
+        "GPA: 3.1",
+        "Active in Student Association"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Technical Skills",
+      "skills": "AWS, Node.js, React, TensorFlow, Docker, REST APIs, Python"
+    },
+    {
+      "category": "Soft Skills",
+      "skills": "Team Leadership, Problem Solving, Creativity, Time Management, Presentation Skills, Communication"
+    }
+  ],
+  "certifications": []
+}

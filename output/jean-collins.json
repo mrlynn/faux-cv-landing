@@ -1,0 +1,58 @@
+{
+  "name": "Jean Collins",
+  "contactInfo": {
+    "email": "jean_collins87@gmail.com",
+    "phone": "285-412-8380",
+    "location": "South Taniastead, VA",
+    "linkedin": "linkedin.com/in/jean-collins-791731",
+    "website": "jeancollins.com"
+  },
+  "summary": "Experienced Software Engineer with 5 years of proven expertise in PyTorch, Python, Django. Demonstrated success in delivering high-quality solutions and collaborating effectively with cross-functional teams.",
+  "experience": [
+    {
+      "position": "Site Reliability Engineer",
+      "company": "NextGen Computing",
+      "startDate": "March 2024",
+      "endDate": "Present",
+      "bulletPoints": [
+        "Spearheaded overcooked MongoDB solutions, resulting in 17% improvement in performance",
+        "Designed cross-functional teamundefined to implement PyTorch approaches",
+        "Worked closely with team members to enhance Express capabilities",
+        "Built reasonable PyTorch solutionundefined, resulting in 31% improvement in efficiency"
+      ]
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "Algorithmics",
+      "startDate": "January 2020",
+      "endDate": "January 2024",
+      "bulletPoints": [
+        "Implemented heavenly Flask solutions, resulting in 30% improvement in user satisfaction",
+        "Spearheaded cross-functional teamundefined to implement Django systems",
+        "Collaborated with team members to transform AWS capabilities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Associate's",
+      "field": "Information Technology",
+      "institution": "damaged Institute",
+      "graduationYear": 2018,
+      "details": [
+        "GPA: 3.1"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Technical Skills",
+      "skills": "TensorFlow, AWS, Angular, REST APIs, Vue.js, PostgreSQL, Django, Node.js, Docker"
+    },
+    {
+      "category": "Soft Skills",
+      "skills": "Collaboration, Decision Making, Presentation Skills, Problem Solving, Team Leadership, Communication"
+    }
+  ],
+  "certifications": []
+}

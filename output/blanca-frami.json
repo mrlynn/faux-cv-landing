@@ -1,0 +1,69 @@
+{
+  "name": "Blanca Frami",
+  "contactInfo": {
+    "email": "blanca.frami@hotmail.com",
+    "phone": "003-459-1663",
+    "location": "Kshlerinworth, VA",
+    "linkedin": "linkedin.com/in/blanca-frami-604977",
+    "website": "blancaframi.com"
+  },
+  "summary": "Experienced DevOps Engineer with 5 years of proven expertise in TypeScript, PostgreSQL, CI/CD. Demonstrated success in delivering high-quality solutions and collaborating effectively with cross-functional teams.",
+  "experience": [
+    {
+      "position": "Backend Developer",
+      "company": "DevStream",
+      "startDate": "March 2023",
+      "endDate": "Present",
+      "bulletPoints": [
+        "Launched motherly React solutionundefined, resulting in 24% improvement in user satisfaction",
+        "Established cross-functional teams to implement Docker systems",
+        "Collaborated with clients to deliver CI/CD capabilities"
+      ]
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "Cloudify",
+      "startDate": "January 2020",
+      "endDate": "January 2023",
+      "bulletPoints": [
+        "Established unlined CI/CD solutions, resulting in 14% improvement in performance",
+        "Designed cross-functional teamundefined to design Express systems",
+        "Worked closely with executives to optimize TensorFlow capabilities"
+      ]
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "DataSphere",
+      "startDate": "December 2019",
+      "endDate": "December 2019",
+      "bulletPoints": [
+        "Managed kaleidoscopic Angular solutions, resulting in 13% improvement in user satisfaction",
+        "Spearheaded cross-functional teamundefined to deploy GraphQL approaches",
+        "Collaborated with executives to transform AWS capabilities",
+        "Implemented sturdy Angular solutionundefined, resulting in 12% improvement in productivity"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Associate's",
+      "field": "Computer Engineering",
+      "institution": "Illinois University",
+      "graduationYear": 2018,
+      "details": [
+        "Member of Honor Society"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Technical Skills",
+      "skills": "TypeScript, Python, Git, Vue.js, PostgreSQL, TensorFlow"
+    },
+    {
+      "category": "Soft Skills",
+      "skills": "Team Leadership, Creativity, Problem Solving, Adaptability"
+    }
+  ],
+  "certifications": []
+}

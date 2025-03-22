@@ -1,0 +1,70 @@
+{
+  "name": "Julio Luettgen-Vandervort",
+  "contactInfo": {
+    "email": "julio.luettgen-vandervort@yahoo.com",
+    "phone": "267-366-2719",
+    "location": "Port Markmouth, MO",
+    "linkedin": "linkedin.com/in/julio-luettgen-vandervort-174791",
+    "website": "julioluettgen-vandervort.com"
+  },
+  "summary": "Experienced UX Designer with 5 years of proven expertise in React, Django, Redis. Demonstrated success in delivering high-quality solutions and collaborating effectively with cross-functional teams.",
+  "experience": [
+    {
+      "position": "Site Reliability Engineer",
+      "company": "CodeBridge",
+      "startDate": "March 2024",
+      "endDate": "Present",
+      "bulletPoints": [
+        "Implemented delirious Django solutions, resulting in 29% improvement in productivity",
+        "Created cross-functional teams to design Django systems",
+        "Partnered with executives to deliver TypeScript capabilities"
+      ]
+    },
+    {
+      "position": "Data Scientist",
+      "company": "Algorithmics",
+      "startDate": "January 2021",
+      "endDate": "January 2024",
+      "bulletPoints": [
+        "Created urban Git solutions, resulting in 14% improvement in productivity",
+        "Managed cross-functional teamundefined to implement Git solutions",
+        "Partnered with clients to transform Node.js capabilities"
+      ]
+    },
+    {
+      "position": "Site Reliability Engineer",
+      "company": "ByteSystems",
+      "startDate": "December 2019",
+      "endDate": "December 2020",
+      "bulletPoints": [
+        "Created elated Node.js solutionundefined, resulting in 26% improvement in performance",
+        "Managed cross-functional teams to develop Python systems",
+        "Collaborated with stakeholders to optimize REST APIs capabilities"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's",
+      "field": "Software Engineering",
+      "institution": "University of South Dakota",
+      "graduationYear": 2019,
+      "details": [
+        "Member of Student Association"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Technical Skills",
+      "skills": "MongoDB, Node.js, Vue.js, Express, CI/CD, PostgreSQL, Python"
+    },
+    {
+      "category": "Soft Skills",
+      "skills": "Project Management, Creativity, Problem Solving, Decision Making"
+    }
+  ],
+  "certifications": [
+    "Google Cloud Professional Cloud Architect"
+  ]
+}
